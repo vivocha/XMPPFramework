@@ -1,6 +1,7 @@
 #import "XMPPDelayedDelivery.h"
 #import "XMPPLogging.h"
 #import "NSXMLElement+XEP_0203.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

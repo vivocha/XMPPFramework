@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
+#import "CocoaLumberjack.h"
+#import "GCDAsyncSocket.h"
 
 @class XMPPIQ;
 @class XMPPJID;
 @class XMPPStream;
-@import CocoaAsyncSocket;
 @protocol TURNSocketDelegate;
 
 /**

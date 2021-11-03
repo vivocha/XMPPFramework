@@ -12,6 +12,7 @@
 #import "XMPPCapabilities.h"
 #import "XMPPIQ+XEP_0357.h"
 #import "XMPPInternal.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG

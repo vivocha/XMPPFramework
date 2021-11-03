@@ -4,6 +4,7 @@
 #import "XMPPJID.h"
 #import "XMPPLogging.h"
 #import "NSNumber+XMPP.h"
+#import "CocoaLumberjack.h"
 
 #import <objc/runtime.h>
 #import <libkern/OSAtomic.h>

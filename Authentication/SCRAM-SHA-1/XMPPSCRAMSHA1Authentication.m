@@ -13,7 +13,7 @@
 #import "XMPPInternal.h"
 #import "NSData+XMPP.h"
 #import "XMPPStringPrep.h"
-
+#import "CocoaLumberjack.h"
 #import <CommonCrypto/CommonKeyDerivation.h>
 
 

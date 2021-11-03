@@ -1,5 +1,6 @@
 #import "XMPPTimer.h"
 #import "XMPPLogging.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

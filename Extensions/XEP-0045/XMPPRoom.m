@@ -3,7 +3,7 @@
 #import "XMPPIDTracker.h"
 #import "XMPPMessage+XEP0045.h"
 #import "XMPPLogging.h"
-
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

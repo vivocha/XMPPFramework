@@ -7,6 +7,7 @@
 
 #import "XMPPSRVResolver.h"
 #import "XMPPLogging.h"
+#import "CocoaLumberjack.h"
 
 //#warning Fix "dns.h" issue without resorting to this ugly hack.
 // This is a hack to prevent OnionKit's clobbering of the actual system's <dns.h>

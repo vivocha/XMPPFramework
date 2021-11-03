@@ -10,6 +10,8 @@
 
 #import "XMPPvCardTempEmail.h"
 #import "XMPPLogging.h"
+#import "DDLog.h"
+#import "CocoaLumberjack.h"
 
 #import <objc/runtime.h>
 

@@ -2,6 +2,7 @@
 #import "XMPPLogging.h"
 #import "XMPPBlocking.h"
 #import "NSNumber+XMPP.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

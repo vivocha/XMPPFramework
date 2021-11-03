@@ -22,6 +22,7 @@
 #import "NSXMLElement+XEP_0297.h"
 #import "XMPPMessageCarbons.h"
 #import "XMPPMessageArchiveManagement.h"
+#import "CocoaLumberjack.h"
 
 static const int xmppLogLevel = XMPP_LOG_LEVEL_WARN;
 

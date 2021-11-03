@@ -2,6 +2,7 @@
 #import "XMPPMessage+XEP_0066.h"
 #import "XMPPStream.h"
 #import "XMPPLogging.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

@@ -12,7 +12,8 @@
 #import "XMPPLogging.h"
 #import "XMPPDateTimeProfiles.h"
 #import "NSData+XMPP.h"
-
+#import "DDLog.h"
+#import "CocoaLumberjack.h"
 #import <objc/runtime.h>
 
 #if ! __has_feature(objc_arc)

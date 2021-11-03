@@ -11,7 +11,7 @@
 #import "XMPPLogging.h"
 #import "XMPPInternal.h"
 #import "NSData+XMPP.h"
-
+#import "CocoaLumberjack.h"
 #import <objc/runtime.h>
 
 #if ! __has_feature(objc_arc)

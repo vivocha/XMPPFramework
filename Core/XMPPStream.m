@@ -6,6 +6,7 @@
 #import "XMPPSRVResolver.h"
 #import "NSData+XMPP.h"
 
+#import "CocoaLumberjack.h"
 #import <objc/runtime.h>
 #import <libkern/OSAtomic.h>
 

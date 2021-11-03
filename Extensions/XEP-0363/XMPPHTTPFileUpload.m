@@ -11,6 +11,7 @@
 #import "NSXMLElement+XMPP.h"
 #import "XMPPIDTracker.h"
 #import "XMPPLogging.h"
+#import "CocoaLumberjack.h"
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG
