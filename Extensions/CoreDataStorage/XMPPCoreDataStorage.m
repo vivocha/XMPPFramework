@@ -674,9 +674,9 @@ static NSMutableSet *databaseFileNames;
 		
 		if ([NSManagedObjectContext instancesRespondToSelector:@selector(initWithConcurrencyType:)])
 			managedObjectContext =
-			    [[NSManagedObjectContext alloc] initWithConcurrencyType:NSConfinementConcurrencyType];
+			    [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
 		else
-			managedObjectContext = [[NSManagedObjectContext alloc] init];
+			managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:0];
 		
 		managedObjectContext.persistentStoreCoordinator = coordinator;
 		managedObjectContext.undoManager = nil;
@@ -721,7 +721,7 @@ static NSMutableSet *databaseFileNames;
 			mainThreadManagedObjectContext =
 			    [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
 		else
-			mainThreadManagedObjectContext = [[NSManagedObjectContext alloc] init];
+			mainThreadManagedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:0];
 		
 		mainThreadManagedObjectContext.persistentStoreCoordinator = coordinator;
 		mainThreadManagedObjectContext.undoManager = nil;
