@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -203,9 +203,6 @@
 		A9A752B82732C59100708AF5 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522A2732C59100708AF5 /* DDLegacyMacros.h */; };
 		A9A752B92732C59100708AF5 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522A2732C59100708AF5 /* DDLegacyMacros.h */; };
 		A9A752BA2732C59100708AF5 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522A2732C59100708AF5 /* DDLegacyMacros.h */; };
-		A9A752BB2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9A7522B2732C59100708AF5 /* CocoaLumberjack-Info.plist */; };
-		A9A752BC2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9A7522B2732C59100708AF5 /* CocoaLumberjack-Info.plist */; };
-		A9A752BD2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9A7522B2732C59100708AF5 /* CocoaLumberjack-Info.plist */; };
 		A9A752BE2732C59200708AF5 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522C2732C59100708AF5 /* CocoaLumberjack.h */; };
 		A9A752BF2732C59200708AF5 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522C2732C59100708AF5 /* CocoaLumberjack.h */; };
 		A9A752C02732C59200708AF5 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A7522C2732C59100708AF5 /* CocoaLumberjack.h */; };
@@ -221,6 +218,9 @@
 		A9A752CA2732C59200708AF5 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A752302732C59100708AF5 /* DDASLLogCapture.m */; };
 		A9A752CB2732C59200708AF5 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A752302732C59100708AF5 /* DDASLLogCapture.m */; };
 		A9A752CC2732C59200708AF5 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A752302732C59100708AF5 /* DDASLLogCapture.m */; };
+		A9A75B2E2732F49700708AF5 /* libidn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A75B2D2732F49700708AF5 /* libidn.xcframework */; };
+		A9A75B2F2732F49700708AF5 /* libidn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A75B2D2732F49700708AF5 /* libidn.xcframework */; };
+		A9A75B302732F49700708AF5 /* libidn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A75B2D2732F49700708AF5 /* libidn.xcframework */; };
 		D2C362472547004100803BE6 /* XMPPvCardTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C362452547004100803BE6 /* XMPPvCardTransformer.h */; };
 		D2C362482547004100803BE6 /* XMPPvCardTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C362452547004100803BE6 /* XMPPvCardTransformer.h */; };
 		D2C362492547004100803BE6 /* XMPPvCardTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C362452547004100803BE6 /* XMPPvCardTransformer.h */; };
@@ -289,12 +289,9 @@
 		D97BEA001FBBE4E200CFE3BB /* XMPPIQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97BE9FD1FBBE4E200CFE3BB /* XMPPIQ.swift */; };
 		D9A7A9B91FB97892005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7A9BA1FB97892005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
-		D9A7A9BC1FB97892005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD38F1E6250D20010D1C7 /* libidn.framework */; };
 		D9A7ADAC1FB97A3C005183CD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD6BF1E625B4D0010D1C7 /* AppKit.framework */; };
-		D9A7ADB01FB97A3C005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3931E6250D20010D1C7 /* libidn.framework */; };
 		D9A7ADB11FB97A3C005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7ADB21FB97A3C005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
-		D9A7AEFB1FB97A65005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3951E6250D20010D1C7 /* libidn.framework */; };
 		D9A7AEFC1FB97A65005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7AEFD1FB97A65005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9A7AFB61FB97B20005183CD /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D44BAEA1E537066000930E0 /* XMPPFramework.framework */; };
@@ -553,7 +550,6 @@
 		D9DCD3361E6250930010D1C7 /* XMPPMUCLight.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD2481E6250930010D1C7 /* XMPPMUCLight.m */; };
 		D9DCD3371E6250930010D1C7 /* XMPPRoomLight.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DCD2491E6250930010D1C7 /* XMPPRoomLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DCD3381E6250930010D1C7 /* XMPPRoomLight.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD24A1E6250930010D1C7 /* XMPPRoomLight.m */; };
-		D9DCD3A01E6251510010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD38F1E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD3A61E6251E30010D1C7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9DCD3A81E6251FA0010D1C7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9DCD4011E6256D90010D1C7 /* XMPPMessageCarbons.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD2221E6250930010D1C7 /* XMPPMessageCarbons.m */; };
@@ -852,7 +848,6 @@
 		D9DCD52C1E6256D90010D1C7 /* XMPPTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB651E537110000930E0 /* XMPPTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DCD52D1E6256D90010D1C7 /* XMPPXOAuth2Google.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB441E537105000930E0 /* XMPPXOAuth2Google.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DCD52E1E6256D90010D1C7 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB261E5370FC000930E0 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DCD5571E6257CE0010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3931E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD5641E6258CF0010D1C7 /* XMPPMessageCarbons.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD2221E6250930010D1C7 /* XMPPMessageCarbons.m */; };
 		D9DCD5651E6258CF0010D1C7 /* XMPPIQ+XEP_0060.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD1B71E6250930010D1C7 /* XMPPIQ+XEP_0060.m */; };
 		D9DCD5661E6258CF0010D1C7 /* XMPPRoomHybrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD17B1E6250930010D1C7 /* XMPPRoomHybrid.xcdatamodeld */; };
@@ -1149,7 +1144,6 @@
 		D9DCD68F1E6258CF0010D1C7 /* XMPPTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB651E537110000930E0 /* XMPPTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DCD6901E6258CF0010D1C7 /* XMPPXOAuth2Google.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB441E537105000930E0 /* XMPPXOAuth2Google.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DCD6911E6258CF0010D1C7 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB261E5370FC000930E0 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DCD6A31E6259970010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3951E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD6C01E625B4D0010D1C7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD6BF1E625B4D0010D1C7 /* AppKit.framework */; };
 		D9DEB76C1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DEB76A1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DEB76D1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DEB76A1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1200,82 +1194,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D9A7A9211FB97892005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D2812301E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
-		D9A7AD101FB97A3C005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D9A06D241E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
-		};
-		D9A7AE5A1FB97A65005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D949C92A1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
-		};
 		D9A7AFF51FB97F92005183CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0D44BAE11E537066000930E0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0D44BAE91E537066000930E0;
 			remoteInfo = "XMPPFramework (iOS)";
-		};
-		D9DCD38E1E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D2812311E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
-		D9DCD3901E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D949C9281E5E097F00DF5447;
-			remoteInfo = "libidn (watchOS)";
-		};
-		D9DCD3921E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D9A06D661E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
-		};
-		D9DCD3941E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D949C96C1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
-		};
-		D9DCD3961E6250DB0010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D2812301E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
-		D9DCD54C1E6257B00010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D9A06D241E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
-		};
-		D9DCD6981E6259770010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D949C92A1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1386,12 +1310,12 @@
 		A9A752272732C59100708AF5 /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
 		A9A752282732C59100708AF5 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
 		A9A7522A2732C59100708AF5 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
-		A9A7522B2732C59100708AF5 /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
 		A9A7522C2732C59100708AF5 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
 		A9A7522D2732C59100708AF5 /* DDLoggerNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoggerNames.m; sourceTree = "<group>"; };
 		A9A7522E2732C59100708AF5 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		A9A7522F2732C59100708AF5 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
 		A9A752302732C59100708AF5 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		A9A75B2D2732F49700708AF5 /* libidn.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libidn.xcframework; sourceTree = "<group>"; };
 		D2C362452547004100803BE6 /* XMPPvCardTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPvCardTransformer.h; sourceTree = "<group>"; };
 		D2C362462547004100803BE6 /* XMPPvCardTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPvCardTransformer.m; sourceTree = "<group>"; };
 		D2C3625F2547021900803BE6 /* XMPPvCard2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XMPPvCard2.xcdatamodel; sourceTree = "<group>"; };
@@ -1663,7 +1587,6 @@
 		D9DCD2481E6250930010D1C7 /* XMPPMUCLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPMUCLight.m; sourceTree = "<group>"; usesTabs = 1; };
 		D9DCD2491E6250930010D1C7 /* XMPPRoomLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPRoomLight.h; sourceTree = "<group>"; };
 		D9DCD24A1E6250930010D1C7 /* XMPPRoomLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPRoomLight.m; sourceTree = "<group>"; usesTabs = 1; };
-		D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libidn.xcodeproj; path = "Carthage/Checkouts/libidn-framework/libidn.xcodeproj"; sourceTree = "<group>"; };
 		D9DCD3A31E6251DC0010D1C7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -1692,9 +1615,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A75B2E2732F49700708AF5 /* libidn.xcframework in Frameworks */,
 				D9DCD3A81E6251FA0010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD3A61E6251E30010D1C7 /* libxml2.tbd in Frameworks */,
-				D9DCD3A01E6251510010D1C7 /* libidn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1705,7 +1628,6 @@
 				D9A7AFB61FB97B20005183CD /* XMPPFramework.framework in Frameworks */,
 				D9A7A9B91FB97892005183CD /* libresolv.tbd in Frameworks */,
 				D9A7A9BA1FB97892005183CD /* libxml2.tbd in Frameworks */,
-				D9A7A9BC1FB97892005183CD /* libidn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1715,7 +1637,6 @@
 			files = (
 				D9A7AFB71FB97B2C005183CD /* XMPPFramework.framework in Frameworks */,
 				D9A7ADAC1FB97A3C005183CD /* AppKit.framework in Frameworks */,
-				D9A7ADB01FB97A3C005183CD /* libidn.framework in Frameworks */,
 				D9A7ADB11FB97A3C005183CD /* libresolv.tbd in Frameworks */,
 				D9A7ADB21FB97A3C005183CD /* libxml2.tbd in Frameworks */,
 			);
@@ -1726,7 +1647,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A7AFB81FB97B34005183CD /* XMPPFramework.framework in Frameworks */,
-				D9A7AEFB1FB97A65005183CD /* libidn.framework in Frameworks */,
 				D9A7AEFC1FB97A65005183CD /* libresolv.tbd in Frameworks */,
 				D9A7AEFD1FB97A65005183CD /* libxml2.tbd in Frameworks */,
 			);
@@ -1737,9 +1657,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DCD6C01E625B4D0010D1C7 /* AppKit.framework in Frameworks */,
-				D9DCD5571E6257CE0010D1C7 /* libidn.framework in Frameworks */,
 				D9DCD4911E6256D90010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD4921E6256D90010D1C7 /* libxml2.tbd in Frameworks */,
+				A9A75B2F2732F49700708AF5 /* libidn.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1747,7 +1667,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DCD6A31E6259970010D1C7 /* libidn.framework in Frameworks */,
+				A9A75B302732F49700708AF5 /* libidn.xcframework in Frameworks */,
 				D9DCD5F81E6258CF0010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD5F91E6258CF0010D1C7 /* libxml2.tbd in Frameworks */,
 			);
@@ -1759,7 +1679,6 @@
 		0D44BAE01E537066000930E0 = {
 			isa = PBXGroup;
 			children = (
-				0DD99DD91E54BC8500019F04 /* Dependencies */,
 				0D44BAF51E5370E2000930E0 /* Sources */,
 				0D44BAEB1E537066000930E0 /* Products */,
 				D9DCD3A21E6251DC0010D1C7 /* Frameworks */,
@@ -1935,17 +1854,10 @@
 			path = Utilities;
 			sourceTree = SOURCE_ROOT;
 		};
-		0DD99DD91E54BC8500019F04 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
 		A9A751F02732C52800708AF5 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				A9A75B2D2732F49700708AF5 /* libidn.xcframework */,
 				A9A752032732C59100708AF5 /* AsyncSocket */,
 				A9A751F12732C59100708AF5 /* KissXML */,
 				A9A752082732C59100708AF5 /* Lumberjack */,
@@ -2085,7 +1997,6 @@
 			isa = PBXGroup;
 			children = (
 				A9A7522A2732C59100708AF5 /* DDLegacyMacros.h */,
-				A9A7522B2732C59100708AF5 /* CocoaLumberjack-Info.plist */,
 				A9A7522C2732C59100708AF5 /* CocoaLumberjack.h */,
 			);
 			path = "Supporting Files";
@@ -2908,17 +2819,6 @@
 			path = CoreDataStorage;
 			sourceTree = "<group>";
 		};
-		D9DCD3881E6250D10010D1C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9DCD38F1E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3911E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3931E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3951E6250D20010D1C7 /* libidn.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D9DCD3A21E6251DC0010D1C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3615,7 +3515,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DCD3971E6250DB0010D1C7 /* PBXTargetDependency */,
 			);
 			name = "XMPPFramework (iOS)";
 			productName = "XMPPFramework-iOS";
@@ -3635,7 +3534,6 @@
 			);
 			dependencies = (
 				D9A7AFF61FB97F92005183CD /* PBXTargetDependency */,
-				D9A7A9201FB97892005183CD /* PBXTargetDependency */,
 			);
 			name = "XMPPFrameworkSwift (iOS)";
 			productName = "XMPPFramework-iOS";
@@ -3654,7 +3552,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9A7AD0F1FB97A3C005183CD /* PBXTargetDependency */,
 			);
 			name = "XMPPFrameworkSwift (macOS)";
 			productName = "XMPPFramework-iOS";
@@ -3673,7 +3570,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9A7AE591FB97A65005183CD /* PBXTargetDependency */,
 			);
 			name = "XMPPFrameworkSwift (tvOS)";
 			productName = "XMPPFramework-iOS";
@@ -3692,7 +3588,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DCD54D1E6257B00010D1C7 /* PBXTargetDependency */,
 			);
 			name = "XMPPFramework (macOS)";
 			productName = "XMPPFramework-iOS";
@@ -3711,7 +3606,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DCD6991E6259770010D1C7 /* PBXTargetDependency */,
 			);
 			name = "XMPPFramework (tvOS)";
 			productName = "XMPPFramework-iOS";
@@ -3761,12 +3655,6 @@
 			mainGroup = 0D44BAE01E537066000930E0;
 			productRefGroup = 0D44BAEB1E537066000930E0 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D9DCD3881E6250D10010D1C7 /* Products */;
-					ProjectRef = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0D44BAE91E537066000930E0 /* XMPPFramework (iOS) */,
@@ -3779,43 +3667,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D9DCD38F1E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD38E1E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3911E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3901E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3931E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3921E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3951E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3941E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		0D44BAE81E537066000930E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A752BB2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3844,7 +3700,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A752BC2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3852,7 +3707,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A752BD2732C59200708AF5 /* CocoaLumberjack-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4474,40 +4328,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9A7A9201FB97892005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (iOS)";
-			targetProxy = D9A7A9211FB97892005183CD /* PBXContainerItemProxy */;
-		};
-		D9A7AD0F1FB97A3C005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (macOS)";
-			targetProxy = D9A7AD101FB97A3C005183CD /* PBXContainerItemProxy */;
-		};
-		D9A7AE591FB97A65005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (tvOS)";
-			targetProxy = D9A7AE5A1FB97A65005183CD /* PBXContainerItemProxy */;
-		};
 		D9A7AFF61FB97F92005183CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0D44BAE91E537066000930E0 /* XMPPFramework (iOS) */;
 			targetProxy = D9A7AFF51FB97F92005183CD /* PBXContainerItemProxy */;
-		};
-		D9DCD3971E6250DB0010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (iOS)";
-			targetProxy = D9DCD3961E6250DB0010D1C7 /* PBXContainerItemProxy */;
-		};
-		D9DCD54D1E6257B00010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (macOS)";
-			targetProxy = D9DCD54C1E6257B00010D1C7 /* PBXContainerItemProxy */;
-		};
-		D9DCD6991E6259770010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (tvOS)";
-			targetProxy = D9DCD6981E6259770010D1C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4628,7 +4452,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4651,7 +4476,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -4674,7 +4503,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -4699,7 +4532,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4724,7 +4561,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4748,7 +4589,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4773,7 +4618,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4799,7 +4648,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4827,7 +4680,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Swift/XMPPFrameworkSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFrameworkSwift;
 				PRODUCT_NAME = "$(PROJECT_NAME)Swift";
@@ -4854,7 +4711,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -4880,7 +4741,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -4907,7 +4772,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -4936,7 +4805,11 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.robbiehanson.XMPPFramework;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
